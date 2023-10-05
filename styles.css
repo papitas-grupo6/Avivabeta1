@@ -1,0 +1,126 @@
+/* Variables */
+:root {
+  --gris: #f4f4f4;
+  --verdeClaro: #b2bd96;
+  --verde: #8d9f6f;
+  --verdeLimon: #929747;
+  --verdeOscuro: #52662b;
+  --primerafuente: "Quicksand", sans-serif;
+  --segundafuente: "Montserrat", sans-serif;
+}
+
+.navbar-custom {
+  background-color: var(--verde);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Valor alto de z-index para asegurarse de que esté por encima del contenido */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave debajo de la barra de navegación */
+}
+
+/* Estilos globales */
+body {
+  font-family: var(--primerafuente);
+  font-size: 1rem;
+  color: #fff;
+  margin: 0;
+  background-color: #fff; /* Cambia el color de fondo del cuerpo a blanco */
+}
+
+/* Cambiar el color de texto del menú de navegación a blanco */
+.navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+/* Estilo para el navbar verde */
+.navbar-custom {
+  background-color: var(--verde);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Cambiar el color de texto del menú de navegación a blanco */
+.navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+/* Cambiar el color de fondo del navegador a azul */
+
+/* Estilo para el texto "ÁVIDA" */
+/* Estilo para el contenedor del texto "ÁVIDA" y el eslogan */
+#logo-slogan-container {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo transparente */
+  color: #fff; /* Color de texto blanco */
+  border-radius: 5px; /* Bordes redondeados */
+  text-align: center; /* Centrar horizontalmente */
+  padding: 10px; /* Espaciado interno */
+}
+
+/* Estilo para el texto "ÁVIDA" */
+#logo-text {
+  font-family: var(--primerafuente);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* Estilo para el texto "Explora, Aprende y Protege Nuestro Entorno" */
+#slogan-text {
+  font-family: var(--segundafuente);
+  font-size: 20px;
+}
+
+/* Estilo para el texto "Explora, Aprende y Protege Nuestro Entorno" */
+#slogan-text {
+  font-family: var(--segundafuente);
+  font-size: 20px;
+}
+
+/* ... (Código CSS existente) ... */
+
+/* Estilo para el cuadro blanco a la izquierda */
+.white-box {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 100%; /* Ajusta la altura del cuadro blanco para que ocupe toda la columna */
+  display: flex; /* Usa flexbox para centrar verticalmente los elementos internos */
+  flex-direction: column; /* Apila los elementos internos verticalmente */
+  justify-content: center; /* Centra verticalmente los elementos internos */
+  align-items: center; /* Centra horizontalmente los elementos internos */
+}
+
+.white-box h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 0;
+}
+
+.white-box p {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+.white-box p > a {
+  color: red;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* Estilos para la mitad derecha (carrusel) */
+.col-md-6:last-child {
+  position: relative; /* Asegura que los elementos internos del carrusel estén posicionados correctamente */
+  padding: 0; /* Elimina el espacio interno de la columna */
+  overflow: hidden; /* Oculta cualquier contenido que se desborde del carrusel */
+}
+
+/* Estilo para el contenedor del carrusel */
+.carousel-container {
+  height: 100%; /* Ajusta la altura para que coincida con el cuadro blanco */
+}

@@ -1,0 +1,62 @@
+/* Estilo de la cuenta */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Estilo para el contenido del mi cuenta */
+.modal-content {
+  background-color: var(--verde); /* Cambia al color verde que desees */
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%; /* Cambia el ancho del rectángulo */
+  max-width: 400px; /* Cambia el ancho máximo si es necesario */
+  text-align: center;
+}
+
+/* Estilo para el botón de cerrar */
+.close {
+  color: #fff; /* Cambia al color de texto que desees */
+  float: right;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #ccc; /* Cambia al color de texto al hacer hover o focus */
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  font-size: 1.5rem; /* Tamaño de fuente personalizado, ajusta según tus necesidades */
+  text-align: center; /* Centrar horizontalmente el texto */
+  display: flex;
+  align-items: center; /* Centrar verticalmente el contenido */
+  justify-content: center; /* Centrar horizontalmente el contenido */
+}
+
+/* Estilos para el bloque de texto con fondo transparente en el carrusel */
+.carousel-caption-bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente negro */
+  color: #fff; /* Color del texto */
+  padding: 15px; /* Espaciado interno del bloque de texto */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+/* Añade estilos para el texto dentro del bloque */
+.carousel-caption-bg p {
+  margin: 0; /* Elimina el margen predeterminado del párrafo */
+}
